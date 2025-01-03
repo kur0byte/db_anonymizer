@@ -1,0 +1,17 @@
+# config/rules/users.yml
+table: users
+columns:
+  - first_name
+  - last_name
+  - email
+  - password_hash
+mask_types:
+  first_name: fake_name
+  last_name: fake_name
+  email: partial
+  password_hash: partial
+mask_functions:
+  first_name: anon.fake_first_name()
+  last_name: anon.fake_last_name()
+  email: anon.partial_email(email)
+  password_hash: anon.random_string(20)
