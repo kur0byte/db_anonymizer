@@ -167,10 +167,6 @@ The tool includes comprehensive error handling:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Author
-
-kur0
-
 ## Acknowledgments
 
 - PostgreSQL Anonymizer project
@@ -180,3 +176,5 @@ kur0
 ## Support
 
 For support, please open an issue on the GitHub repository or contact the maintainers.
+
+Made with 🖤 by kur0
